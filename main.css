@@ -36,3 +36,9 @@ body {
 .center {
   text-align: center;
 }
+
+.footer {
+  padding: 3vw 0vw 3vw 0vw;
+  background-color: #083526;
+  text-emphasis-color: #0e8888;
+}
