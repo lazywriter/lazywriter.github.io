@@ -1,0 +1,108 @@
+html {
+  letter-spacing: 1px !important;
+  line-height: 1.5em !important;
+}
+
+body {
+  background-color: ghostwhite;
+}
+
+.hero {
+  background-image: url("img/hero-img.jpg");
+  height: 500px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 2vw;
+}
+
+.heading {
+  padding: 1vw 0vw 1vw 0vw;
+  color: #0e8888;
+  text-shadow: 1px 1px 2px #fbebed;
+}
+
+.font {
+  color: #083526;
+  text-shadow: 1px 1px 2px #fbebed;
+  text-emphasis-color: red;
+  padding: 1vw 1vw 1vw 2vw;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  padding: 3vw 0vw 3vw 0vw;
+  background-color: #083526;
+  text-emphasis-color: #0e8888;
+}
+
+/* Main CSS for pages */
+
+.navbar-item>h3 {
+  font-weight: 800;
+  padding-top: 1%;
+}
+
+#main-hero {
+  /* background-image: url(../../img/hero-img.jpg);
+  height: 400px;
+  margin-top: 15px;
+  background-position: 20% 30%; */
+  background-image: url("../../img/hero-img.jpg");
+  height: 500px;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+
+}
+
+#hero-text div {
+  background-color: transparent;
+  box-shadow: none !important;
+  padding: 20px 40px 10px 40px;
+  color: ghostwhite !important;
+}
+
+#hero-text div>h1 {
+  color: #286592;
+  font-weight: 600;
+
+}
+
+#hero-text div>span {
+  color: #2a6757;
+  font-weight: 500;
+  /* background-color: #5d5a5a; */
+  /* padding: 2px 10px; */
+  line-height: 2;
+
+}
+
+#main-banner {
+  margin-top: 20px;
+}
+
+#main-banner hr {
+  background-color: #8a8888 !important;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 0.5rem 0 !important;
+}
+
+#bookCards {
+  padding: 20px 0px;
+}
+
+.object-pad {
+  padding: 1.5vw;
+}

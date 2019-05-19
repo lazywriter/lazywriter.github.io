@@ -1,82 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>YashWardahn Blogs</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../main.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      media="screen"
-      href="../tailwind.min.css"
-    />
-    <script src="main.js"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>YashWardahn Blogs</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/bulma.min.css" />
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/semantic.min.js"></script>
+</head>
+
+<body>
+  <div id="main-wapper">
     <!-- Navidation Section Starts Here-->
-    <div id="navbar">
-      <nav
-        class="flex items-center justify-between flex-wrap bg-grey-darkest p-6"
-      >
-        <div class="flex items-center flex-no-shrink text-white mr-6">
-          <!-- <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg> -->
-          <span class="font-semibold text-xl tracking-tight"
-            >Yash Wardhan Thakur</span
-          >
+    <div id="nav-bar">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <h3>Yashwardhan Blog</h3>
+          </a>
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
-        <div class="block lg:hidden">
-          <button
-            class="flex items-center px-3 py-2 border rounded text-teal-lighter border-teal-light hover:text-white hover:border-white"
-          >
-            <svg
-              class="fill-current h-3 w-3"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-          </button>
-        </div>
-        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
-          <div class="text-sm lg:flex-grow">
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
-            >
-              Books Reviews
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="#">
+              Home
             </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white mr-4"
-            >
-              NCC Bhopal Updates
+            <a class="navbar-item" href="#">
+              Book Reviews
             </a>
-            <a
-              href="#responsive-header"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-lighter hover:text-white"
-            >
-              Resonance Updates
+            <a class="navbar-item" href="#">
+              K12 Learning Tools
             </a>
           </div>
-          <div>
-            <a
-              href="#"
-              class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal hover:bg-white mt-4 lg:mt-0"
-              >Download</a
-            >
+
+          <div class="navbar-end">
           </div>
         </div>
       </nav>
     </div>
-    <!-- Navigation code ends here -->
-    <!-- Hero section starts here -->
-    <div id="hero">
-      <div class="container sm">
-        <div class="hero">
-          <!-- <img src="../My-Blog/img/google-holi.png" alt="" srcset="">     -->
+    <div id="main-hero">
+      <div id="hero-text" class="ui grid">
+        <div class="row">
+          <h1 class="is-size-1">Hello, world!</h1>
+          <span class="is-size-7-mobile is-size-6-desktop">My blog will give frequent updates of the recent
+            bestselling novels
+            and tell the viewers about their plot,price and other necessary
+            information. News related to the academic tycoon coaching
+            'Resonance' are updated informing about the various
+            Workshops,Scholarship Exams and Tech examinations held here
+            Recent activities of the the thrilling national cadet
+            corps(NCC),Bhopal are posted on a monthly basis.</span>
         </div>
       </div>
     </div>
@@ -92,18 +73,25 @@
         The Da Vinci Code is an awesome thrilling novel written by the famous
         author Dan Brown. it is one of the novels featuring proffesor Robert
         Langdon. <br>
-        <div style="padding: 1em 0em 1em 0em;"><h3>Introduction:</h3> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio velit ducimus, cumque illum officia odit nisi, tempora, rem ipsam ut earum minus unde quibusdam? Cum eaque numquam quidem expedita.
+        <div style="padding: 1em 0em 1em 0em;">
+          <h3>Introduction:</h3>
+          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio velit ducimus, cumque illum
+            officia odit nisi, tempora, rem ipsam ut earum minus unde quibusdam? Cum eaque numquam quidem expedita.
 
-          
-        </p></div> 
+
+          </p>
+        </div>
       </p>
-        <!-- plot summary -->
-        <div class="font">
-            <h3>Plot summary:</h3>
-            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aliquam debitis nulla ratione, corporis et sint, perspiciatis autem incidunt libero illo iure magni adipisci doloremque itaque animi quod eius assumenda.
-              
-            </p>
- 
+      <!-- plot summary -->
+      <div class="font">
+        <h3>Plot summary:</h3>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aliquam debitis nulla ratione, corporis et
+          sint, perspiciatis autem incidunt libero illo iure magni adipisci doloremque itaque animi quod eius assumenda.
+
+        </p>
+
+      </div>
     </div>
-  </body>
+</body>
+
 </html>
