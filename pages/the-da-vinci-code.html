@@ -9,135 +9,59 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/bulma.min.css" />
   <script src="../assets/js/main.js"></script>
-  <script src="../assets/js/semantic.min.js"></script>
+  <script src="../data/books.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/book_reviews.js"></script>
 </head>
 
 <body>
   <!-- Navidation Section Starts Here-->
   <div id="main-wapper">
     <div id="nav-bar">
-      <nav class="navbar is-transparent">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-            <h3>Yashwardhan Blog</h3>
-          </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="#">
-              Home
-            </a>
-            <a class="navbar-item" href="#">
-              Book Reviews
-            </a>
-            <a class="navbar-item" href="#">
-              K12 Learning Tools
-            </a>
-          </div>
-
-          <div class="navbar-end">
-          </div>
-        </div>
-      </nav>
     </div>
     <div id="main-hero">
-      <div id="hero-text" class="ui grid">
-        <div class="row">
-          <h1 class="is-size-1">Hello, world!</h1>
-          <span class="is-size-7-mobile is-size-6-desktop">My blog will give frequent updates of the recent
-            bestselling novels
-            and tell the viewers about their plot,price and other necessary
-            information. News related to the academic tycoon coaching
-            'Resonance' are updated informing about the various
-            Workshops,Scholarship Exams and Tech examinations held here
-            Recent activities of the the thrilling national cadet
-            corps(NCC),Bhopal are posted on a monthly basis.</span>
-        </div>
-      </div>
-    </div>
-    <!-- hero ends here -->
-    <!-- content starts here -->
-    <div id="banner">
-      <div class="content" style="border: solid 1px">
-        <h1 class="heading">The Da Vinci Code</h1>
-      </div>
-      <div class="font">
-        <p>
-          The Da Vinci Code is an awesome thrilling novel written by the famous
-          author Dan Brown. it is one of the novels featuring proffesor Robert
-          Langdon. <br>
-          <div style="padding: 1em 0em 1em 0em;">
-            <h3>Introduction:</h3>
-            <p>Thwe Da Vinci Code was released in 2003.It is a mystery thrillerwhich follows "symbologist" Robert
-              Langdon and cryptologist Sophie Neveu after a murder in the Louvre Museum in Paris that causes them to
-              become involved in a battle between two christian orgnizations that suggest an answer to an old age
-              mystery that stretches deep into the vaults of history.
-
-            </p>
-          </div>
-        </p>
-        <!-- plot summary -->
-        <div class="font">
-          <h3>Plot summary:</h3>
-          <p>
-            the story begins with the assassination of The curator of Louvre Mueseum and the priory of Sion grand master
-            Jacques sauniere by an albino catholic monk named Silas.
-            <br> After Sauniere's body is discoverd in the pose of the Vitruvian Man, the police summons Harvard
-            proffesor Robert Langdon, who is in town for business.
-            the police captain teels him that he was summoned here to decode the cryptic message Sauniere left before
-            dying.
-            <br> Sophie Neveu, a police cryptographer who is the estranded grandaughter of Sauniere explains to Langdon
-            that Bezu Fache , the police captain thinks that Langdon murdered Sauniere because the last line of her
-            grandfather's message said,"P.S Find Robert Langdon" which Fache erased prior to lLangdon's arrival!
-            <br> Neveu and Langdon escape the police and visit hte depository bank of Zurich for a safe deposit box. in
-            the safe deposit box they find: a cryptex(a cylindrical vault with five rotating dials labelled with
-            letters) and clues to its password.
-            <br>Langdon and Neveu take the cryptex to Sir Leigh Teabing, a friend of Langdon's who is an expert on the
-            Holy grail. Teabing explains that the Holy Grail is not a cup, but a tomb containing the bones of Mary
-            Magdalene(One of the twelve followers of Jesus).
-            the trio then flees the country on Teabing's private plane. They conclude that the proper combination of the
-            letters spell out 'Sophia', the name given to Neveu. the cryptex opens revealing another small cryptex
-            inside it! <br>
-            by hte time they arrive at Westminster Abbey, Teabing is reveled to be the master of Silas. Teabing wishes
-            to use the Holy grail to ruin the vatican. he forces Langdon to open the cryptex at gunpoint to solve the
-            cryptex password
-            , which Langdo nrealizes is 'apple'. Landon secretly opens the cryptex and throws it after taking the
-            contents. Teabing is alter arrested by Bezu Fache,the police captain who realizes that Langdon is innocent.
-            <br> the final message of the keystone trakes Langs=don and Neveu to Rosslyn Chapel whose docents turn out
-            to be Neveu,s brother and grandmother who she beleived died in a car accident. Neveu also finds that she is
-            the descendant of Jesus Christ and Mary Magdalene
-            Landon also finds out that the tomb of Mary magdalene is buried beneath the pyramid in the Louvre mueseum.
-
-          </p>
-
-        </div>
-        <div class="font">
-          <h3>Personal review:</h3>
-          <p>
-            Like every other Robert Brown novel, The Da Vinci code stood up to its mark. the book was very interesting
-            and it is impossible to keep down the book after starting it.
-            The book provides a detailed narrative and surprises at every end. But it is not my most favourite Robert
-            Brown novel. However, I would recommend yopu tjis book if you are looking for a graet thriller novel.
-
-          </p>
-        </div>
-        <div class="font" style="border:solid 1px">
-          <h1>
-            Ratings: 8.4/10
-          </h1>
-
-        </div>
 
 
-      </div>
     </div>
   </div>
+  <!-- hero ends here -->
+  <!-- content starts here -->
+  <div id="banner">
+    <div class="content" style="border: solid 1px">
+      <h1 id="book-name" class="heading"></h1>
+    </div>
+    <div class="font">
+      <p id="book-intro">
+      </p>
+    </div>
+    </p>
+
+    <!-- plot summary -->
+    <div class="font">
+      <h3>Plot summary:</h3>
+      <p id="book-content">
+
+      </p>
+
+    </div>
+    <div class="font">
+      <h3>Personal review:</h3>
+      <p id="book-preview">
+
+      </p>
+    </div>
+    <div class="font" style="border:solid 1px; padding: 0vw 0vw 4wv 0vw !important">
+      <h1>
+        Ratings: 8.4/10
+      </h1>
+
+    </div>
+
+
+  </div>
+  </div>
+  </div>
+  <div id="footer"></div>
 
 </body>
 

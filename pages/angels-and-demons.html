@@ -9,42 +9,16 @@
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/bulma.min.css" />
   <script src="../assets/js/main.js"></script>
-  <script src="../assets/js/semantic.min.js"></script>
+  <script src="../data/books.js"></script>
+  <script src="../assets/js/common.js"></script>
+  <script src="../assets/js/book_reviews.js"></script>
 </head>
 
 <body>
   <div id="main-wapper">
     <!-- Navidation Section Starts Here-->
     <div id="nav-bar">
-      <nav class="navbar is-transparent">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="/">
-            <h3>Yashwardhan Blog</h3>
-          </a>
-          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
 
-        <div id="navbarExampleTransparentExample" class="navbar-menu">
-          <div class="navbar-start">
-            <a class="navbar-item" href="#">
-              Home
-            </a>
-            <a class="navbar-item" href="#">
-              Book Reviews
-            </a>
-            <a class="navbar-item" href="#">
-              K12 Learning Tools
-            </a>
-          </div>
-
-          <div class="navbar-end">
-          </div>
-        </div>
-      </nav>
     </div>
     <div id="main-hero">
       <div id="hero-text" class="ui grid">
@@ -65,33 +39,31 @@
     <!-- content starts here -->
     <div id="banner">
       <div class="content" style="border: solid 1px">
-        <h1 class="heading">Angels and Demons</h1>
+        <h1 id="book-name" class="heading"></h1>
       </div>
     </div>
     <div class="font">
-      <p>
-        The Da Vinci Code is an awesome thrilling novel written by the famous
-        author Dan Brown. it is one of the novels featuring proffesor Robert
-        Langdon. <br>
-        <div style="padding: 1em 0em 1em 0em;">
-          <h3>Introduction:</h3>
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus optio velit ducimus, cumque illum
-            officia odit nisi, tempora, rem ipsam ut earum minus unde quibusdam? Cum eaque numquam quidem expedita.
 
 
-          </p>
-        </div>
-      </p>
+      <div style="padding: 1em 0em 1em 0em;">
+        <h3>Introduction:</h3>
+        <p id="book-intro">
+
+
+
+        </p>
+      </div>
+
       <!-- plot summary -->
       <div class="font">
         <h3>Plot summary:</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro aliquam debitis nulla ratione, corporis et
-          sint, perspiciatis autem incidunt libero illo iure magni adipisci doloremque itaque animi quod eius assumenda.
+        <p id="book-content">
 
         </p>
 
       </div>
     </div>
+    <div id="footer"></div>
 </body>
 
 </html>
