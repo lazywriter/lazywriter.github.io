@@ -6,16 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>YashWardahn Blogs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/bulma.min.css" /> 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script src="./assets/js/main.js"></script>
-    <script src="./assets/js/semantic.min.js"></script>
-    <script src="./data/books.js"></script>
-    <script src="./assets/js/book_cards.js"></script>
-    <script src="./assets/js/common.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="../assets/js/semantic.min.js"></script>
+    <script src="../data/books.js"></script>
+    <script src="../data/k12Data.js"></script>
+    <script src="../assets/js/book_cards.js"></script>
+    <script src="../assets/js/common.js"></script>
+    <script src="../assets/js/k12_view.js"></script>
+    <script src="../assets/js/k12_cards.js"></script>
 </head>
 
 <body>
@@ -40,18 +43,114 @@
                 </span>
             </div>
         </div>
+        
         <div id="main-banner">
-            <div class="container">
-                <span class="is-size-2">Latest Content</span>
-                <hr>
-               
-            </div>
-            <div id="grid">
-                <div id="bookCards"></div>
-            </div>
+          <div class="container">
+              <span class="is-size-2">Latest Content</span>
+              <hr>
+             
+        <div class="container">
+            <div class="columns" style="padding: 0vw 1vw 0vw 1vw;">
+                <div class="column">  <!-- First Column -->
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="../img/ww2-1-intro.jpg" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">Different Perceptions of WWII </p>
+                              
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Discover the various Perceptions of people on the beginning of the war and a descriptive study on Hitler's Rise to Power <br>
+                            <a href="ww2-1.html"><button class="button is-danger is-rounded">Read</button></a>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+    
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+    
+    
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                          <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                          </figure>
+                        </div>
+                        <div class="card-content">
+                          <div class="media">
+                            <div class="media-left">
+                              <figure class="image is-48x48">
+                                <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                              </figure>
+                            </div>
+                            <div class="media-content">
+                              <p class="title is-4">John Smith</p>
+                              <p class="subtitle is-6">@johnsmith</p>
+                            </div>
+                          </div>
+                      
+                          <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                            <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                
+    
+         </div>
+      </div>
+          
         </div>
+        
+        
+    
+   
 
-    </div>
+   
     <div id="footer"></div>
     </div>
 </body>

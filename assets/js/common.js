@@ -1,15 +1,15 @@
 let menuItems = [
   {
     itemName: "Home",
-    itemLink: "#"
+    itemLink: "F:/Code/Web Development/website/index.html"
   },
   {
     itemName: "Book Review",
-    itemLink: "#"
+    itemLink: "F:/Code/Web Development/website/index.html"
   },
   {
     itemName: "K12 Learning",
-    itemLink: "#"
+    itemLink: 'F:/Code/Web Development/website/pages/k12.html'
   }
 ];
 
@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
 <div class="navbar-burger burger" data-target="navbarExampleTransparentExample"> \
 <span></span><span></span><span></span></div></div> \
 <div id="navbarExampleTransparentExample" class="navbar-menu"> \
-<div class="navbar-start">';
+<div class="navbar-start">'
+
 
   for (let index = 0; index < menuItems.length; index++) {
     navBar +=
@@ -53,4 +54,30 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.getElementById("footer").innerHTML = footerCommon;
   // End here
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+      // Add a click event on each of them
+      $navbarBurgers.forEach(el => {
+          el.addEventListener('click', () => {
+
+              // Get the target from the "data-target" attribute
+              const target = el.dataset.target;
+              const $target = document.getElementById(target);
+
+              // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+              el.classList.toggle('is-active');
+              $target.classList.toggle('is-active');
+
+          });
+      });
+  }
+
 });

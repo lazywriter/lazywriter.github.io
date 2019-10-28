@@ -106,3 +106,15 @@ body {
 .object-pad {
   padding: 1.5vw;
 }
+
+.content-image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 500px;
+}
+.content-div{
+  padding: 2vw 0vw 1vw 0vw;
+  text-align: center;
+}
